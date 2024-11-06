@@ -1,16 +1,25 @@
-# Proposal
+# Courtney Worrell Proposal
 
 ## What will (likely) be the title of your project?
 
-TODO
+Mina the Ballerina: Choose Your Own Adventure.
 
 ## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
 
-TODO
+Interactive story that takes the reader through the life of a ballerina, and allows them to make some choices of their own. 
 
 ## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
 
-TODO
+"Mina the Ballerina: Choose Your Own Adventure" will be a short story 
+made in the Renpy software that will allow the viwer to
+make decisions as they travel through the book with the main charcter. 
+Each charcter, setting, and audio will be different from one another. 
+Ideally, thier will be two different types of actions in this story,
+some that have consequences, and some that do not. I hope to use the four 
+arrow keys as the decision makers. right to go forward, left to go 
+back, up for decion 1, and down for decion 2. I'm not sure how long the 
+story will be, but I aim for there to be 10 decisions to make (maybe
+3 with consequences that impact the story, the other 7 without).
 
 ## If planning to combine 1051's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to 1051, and which aspect(s) would relate to the other course?
 
@@ -24,18 +33,25 @@ No.
 
 ### In a sentence (or list of features), define a GOOD outcome for your final project. I.e., what WILL you accomplish no matter what?
 
-TO DO. 
+Interactive story with one ending, visuals for the characters, background music, and one background visual.
 
 ### In a sentence (or list of features), define a BETTER outcome for your final project. I.e., what do you THINK you can accomplish before the final project's deadline?
 
-TO DO.
+Interactive story with one ending, visuals for the characters, background music, and different background visuals.
 
 ### In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
 
-TO DO.
+Interactive story with multiple possible endings, voices and visuals for the characters, background music, and different background visuals. 
 
 ## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
 
-TODO
+- write out my script 
+- Using Renpy program 
+- finding images for each character 
+- editing the pictures for each character
+- making the story interesting 
+- having sound with story, like voices?
+- having multiple endings?
+
  
 
