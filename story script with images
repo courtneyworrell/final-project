@@ -1,0 +1,487 @@
+#  The script of the game goes in this file.
+
+define m = Character("Mina")
+define e = Character("Eniyah")
+define c = Character("Courtney")
+define k = Character("Kamorae")
+define n = Character("Narrator")
+define t = Character("All")
+define a = Character("Competition Announcer")
+define x = Character("Crowd")
+define b = Character("Competition Director")
+
+label start:
+
+    scene mina studio
+
+    m "HELLOOOOO, I'm Mina the Ballerina."
+    m "This is my dance studio where I love to practice with my friends."
+    m "There are only four people in our group because we are the best dancers in California..."
+    m "And of course that means only the best can dance with us."
+    m "Look, here are my friends!"
+
+    scene court studio
+
+    c "Hi, my name is Courtney."
+
+    scene kamorae studio
+
+    k "Hi, my name is Kamorae."
+
+    scene eniyah studio
+
+    e "Hi, my name is Eniyah."
+
+    scene all studio
+
+    m "Ok slow pokes, it's time to start practice."
+    m "Five, six, seven, eight!"
+
+    scene all dance one studio 
+
+    m "Rond de jambe, attitude, step plie, and arabesque."
+
+    scene all dance two studio 
+
+    m "Down, prep and turn on five, six, seven, eight."
+
+    scene all dance one studio 
+
+    m "Chasse step and grand jete."
+
+    scene all dance two studio 
+
+    m "And finish, hold the pose on five, six, seven, eight."
+
+    scene all studio 
+
+    m "Great job ladies!"
+    c "YES, that was so clean."
+    e "I think that was the best time we did it."
+    k "We're definitely going to win the competition tomorrow."
+    m "Only if we keep practicing."
+    m "I think we need to do the routine about twenty more times."
+    m "Maybe eighteen if we do it perfectly a few times. "
+
+    scene kamorae studio 
+
+    k "Mina..."
+    k "Don't you think that's a bit... much?"
+
+    scene court studio 
+
+    c "Yea we just did it perfectly."
+
+    scene mina studio 
+
+    m "And we need to keep doing it perfectly."
+    m "How else are we going to win tomorrow?"
+    m "Do you know how important this competition is?"
+    m "All of the best ballet schools in California are going to be there."
+    m "Only if we keep practicing."
+
+    scene kamorae studio 
+
+    k "Well if we just did it perfectly, maybe that means we're ready for tomorrow."
+
+    scene eniyah studio 
+
+    e "Yea I think we should take a break."
+    e "We don't want to be sore for tomorrow, so we should get some rest."
+
+    scene court studio 
+
+    c "Look how pretty the ocean is today, we should go to the beach!"
+
+    scene mina studio 
+
+    m "Absolutely not."
+    m "State champions don't have beach days."
+    m "We need to keep practicing."
+
+    scene kamorae studio 
+
+    k "Wait, they're right Mina. We need to give our mind and bodies a break."
+
+    scene mina studio 
+
+    m "Guys, we need to finish rehearsing."
+    m "Let's get back into our beginning poses."
+
+    scene court studio 
+
+    c "Okay, and after that we're going to the beach." 
+
+    scene eniyah studio 
+
+    e "Yea, I'm not spending my whole Saturday inside when it's so beautiful out today."
+
+    scene kamorae studio 
+
+    k "I agree."
+
+    scene mina studio 
+
+    m "Well we're only leaving if this run through is perfect."
+
+    scene eniyah studio 
+
+    e "Okay, lets get to it."
+
+    scene all studio 
+
+    m "Five, six, seven, eight!"
+
+    scene all dance one studio 
+
+    n "All four of the girls run through the dance routine again."
+
+    scene all dance two studio 
+
+    n "All four of the girls run through the dance routine again."
+
+    scene all dance one studio 
+
+    n "They do it perfectly, even though they are very tired afterwards."
+
+    scene all dance two studio 
+
+    n "They do it perfectly, even though they are very tired afterwards."
+
+    scene all studio 
+
+    m "Wow, that actually was really good"
+    k "I told youuuu."
+    m "I still think we should run through it a few more times."
+    c "Mina!"
+    m "I just want us to be as prepared as possible."
+    c "Stop stressing, we're going to do amazing."
+    k "Exactly, we're all very well prepared."
+    m "I hope so."
+    e "Well, time for the beach!"
+    c "YAYYYYYYY."
+
+    scene bg black
+
+    n "All of the girls leave dance rehearsal and head to the beach."
+
+    scene mina beach
+
+    m "Guys, maybe we should go back to the studio."
+
+    scene kamorae beach 
+
+    k "Mina..."
+
+    scene mina beach
+
+    m "Just to run through the dance a couple more times."
+
+    scene eniyah beach
+
+    e "Nope time to go swimming."
+
+    scene court beach
+
+    c "Last one in the water is a rotten egg."
+
+    scene bg black
+
+    n "All of the girls run to the ocean and enjoy a few hours in the water."
+
+    scene kamorae ocean
+
+    k "See isn't this so fun?" 
+
+    scene mina ocean
+
+    m "The water is freezing cold."
+
+    scene kamorae ocean
+
+    k "That's what makes it good for your muscles."
+
+    scene court ocean
+
+    c "Let's play mermaids."
+    c "And see who can collect the most seashells."
+
+    scene eniyah ocean
+
+    e "Ouuu I see some over here."
+
+    scene kamorae ocean
+
+    k "There's a really big one by me."
+
+    scene mina ocean
+
+    m "I see pretty shells all over the sand."
+
+    scene kamorae ocean
+
+    k "Yesss, let's start a collection."
+
+    scene all ocean
+
+    n "A huge wave is heading towards the girls."
+
+    scene kamorae ocean
+
+    k "OMG, look at that huge wave."
+
+    scene mina ocean
+
+    m "Everyone swim away!"
+
+    scene all ocean
+
+    n "*the wave crashes into the girls*"
+    e "OMG this is so fun."
+    c "There is water all in my eyes LOL."
+
+    scene mina ocean
+
+    m "I hate the ocean, it's so unpredictable."
+
+    scene kamorae ocean
+
+    k "Cheer up Mina, the waves just wanted to dance with you."
+
+    scene mina ocean
+
+    m "That's not dancing, that's drowning."
+
+    scene all ocean
+
+    c "HAHAHAHA."
+    m "Actually, let's practice our dance in the water since you all love swimming much."
+    e "UGHHH."
+    m "Five, six, seven, eight!"
+
+    scene all dance one ocean
+
+    n "All four of the girls run through their dance routine in the ocean."
+
+    scene all dance two ocean
+
+    n "They all splash each other as they try to do their moves in the water."
+
+    scene all ocean
+
+    m "Wasn't that fun?"
+    c "Yes until y'all started splashing water all in my eyes again."
+    e "HAHAHAHAHA."
+
+    scene kamorae ocean
+
+    k "Well it's time to get out anyways, the sun is setting."
+
+    scene mina ocean
+
+    m "Yes we should all go home to rest up for our big day tomorrow."
+
+    scene kamorae ocean
+
+    k "Okay bye everyone."
+
+    scene eniyah ocean
+
+    e "See you tomorrow."
+
+    scene mina ocean
+
+    m "Make sure to practice tonight!"
+
+    scene court ocean
+
+    c "Goodbye girls."
+
+    scene bg black
+
+    n "*The next day*"
+
+    scene all competition
+
+    k "Hi girls."
+    e "Good morningggg."
+    m "I'm so nervous guys."
+    c "yea there are really good teams here today."
+    e "The best in California."
+
+    scene kamorae competition
+
+    k "Guys, don't worry, we've practiced for this moment."
+
+    scene mina competition
+
+    m "Maybe we should have practiced some more."
+
+    scene kamorae competition
+
+    k "Mina don't start, we're going to great today."
+
+    scene eniyah competition
+
+    e "Hopefully we win."
+
+    scene mina competition
+
+    m "We NEED to win."
+
+    scene kamorae competition
+
+    k "We're going to win."
+
+    scene court competition
+
+    c "Yea guys I have a lot of faith in us."
+
+    scene all competition
+
+    e "Go team on three."
+    e "One, two, three..."
+    t "GO TEAM!"
+    m "Okay time to go stretch."
+
+    scene bg black
+
+    n " All of the girls head to their dressing room to get dressed and warm up for their performance."
+
+    scene costume competition
+
+    b "Hi ladies, are you ready to perform?"
+    t "Yes we are!"
+    b "Okay you should head to the stage, there is only one more group to go before you all."
+
+    scene costume competition
+
+    m "Alright thank you so much!"
+    b "You're welcome, good luck ladies."
+    n "All of the girls walk to the stage and finish stretching in the wings. "
+    m "Guys I'm really nervous, there is a lot of good competition out there today."
+    k "Don't be, we got this girls!"
+    a "Now calling to the stage, group number 105 Sparkle."
+    m "OMG, it's our turn to go. "
+    k "We got this!"
+    e "Go team on three."
+    e "One, two, three..."
+    t "GO TEAM!"
+
+    scene all stage 
+
+    n "All of the girls run to the stage in time to perform."
+
+    scene dance one stage 
+
+    n "The music starts and the girls begin to dance."
+
+    scene dance two stage 
+
+    n "All of the girls execute the dance perfectly and run off of the stage in a joyful manner."
+
+    scene costume competition
+
+    k "That was SOOOO good."
+    c "Yes we killed it."
+    e "I'm so happy!"
+    m "That was really good, but I'm still a little nervous."
+    c "I think we just won that."
+    e "Me too."
+    k "Well we're gonna find out really soon because awards are right after this last performance ends."
+    a "All dancers please come back to the stage, it is now time for the award ceremony."
+    m "OMG it's time."
+    c "Let's get to the stage"
+
+    scene bg black
+
+    n "All of the girls walk back to the stage and sit down as the award ceremony begins."
+
+    scene all stage 
+
+    a "In fourth place, group 119 Dance the Night Away."
+    x "*claps*"
+    e "Oh goodness, they were so good."
+    a "In third place, group 201 Power."
+    x "*claps*"
+    c "They were too."
+    a "In second place, group 163 Sweet Life."
+    x "*claps*"
+    m "OMG, what if we didn't place."
+    k "No Mina, I think we just won it all."
+    a "And in first place, drumroll please..."
+    a "Group number 105, Sparkle!"
+    a "That's Mina, Courtney, Eniyah, and Kamorae." 
+
+    scene win stage 
+
+    a "Everyone please give a round of applause for these hardworking ladies." 
+    t "YAYYYYYY. "
+    x "*claps*"
+
+    scene bg black
+
+    n "The four girls leave the stage to take pictures with their big trophy."
+
+    scene medals competition
+
+    e "I'm so proud of us."
+    k "I knew we could do it."
+    c "I'm so happy"
+    m "Me too LOL."
+
+    scene kamorae medal 
+
+    k "I told you Mina."
+
+    scene mina medal 
+
+    m "Told me what?"
+
+    scene kamorae medal 
+
+    k "That we didn't need to practice a thousand times to still be the best."
+
+    scene eniyah medal 
+
+    e "Yea winners deserve to have fun too."
+
+    scene mina medal 
+
+    m "Oh, I guess you were right."
+
+    scene court medal 
+
+    c "I bet it was the ocean that gave us extra good luck."
+
+    scene mina medal 
+
+    m "Or because we practiced in the water."
+
+    scene kamorae medal 
+
+    k "MINAAA!"
+
+    scene mina medal 
+
+    m "Just kidding, LOL."
+    m "Wow look at us, the new state champions."
+
+    scene eniyah medal 
+
+    e "Let's go get some ice cream to celebrate."
+
+    scene kamorae medal 
+
+    k "I agree."
+
+    scene medals competition 
+
+    t "YAYYYYYYY."
+
+    scene bg black
+
+    n "All of the girls continued to celebrate as they left the competition victorius."
+    n "THE END."
+ 
+    return
